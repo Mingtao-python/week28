@@ -17,9 +17,9 @@ For a fresh copy without the bundled dependencies or model:
 
 ```powershell
 py -3.12 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\fetch_model.ps1
-.\run.ps1
+.\.venv\Scripts\python.exe -m pip install -r Week28_Engineering\requirements.txt
+.\Week28_Engineering\fetch_model.ps1
+.\Week28_Engineering\run.ps1
 ```
 
 The downloader checks both files against pinned hashes. [MiniLM model files](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/tree/5641a7880f40ebf4035d05e60c5f9b7a9c272c84/onnx)
